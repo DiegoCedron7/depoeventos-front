@@ -80,7 +80,7 @@
   }
 }
 .QuoteWrapper {
-  position: absolute;
+  /*position: absolute*/
   left: 0;
   bottom: 50px;
   max-width: 330px;
