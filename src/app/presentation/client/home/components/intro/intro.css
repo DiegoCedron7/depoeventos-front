@@ -13,6 +13,8 @@
 }
 .svg {
   @media (min-width: 1900px) {
+    position: absolute;
+    left: 6rem;
   }
 }
 .RightSide {
