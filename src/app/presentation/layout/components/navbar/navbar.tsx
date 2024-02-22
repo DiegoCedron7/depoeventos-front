@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`wrapper flexCenter animate whiteBg sticky top-0 z-50 shadow-md`}
+        className={`wrapper flexCenter animate whiteBg fixed w-full top-0 z-50 shadow-md`}
         style={{ height: "65px" }}
       >
         <div className="nav-inner container flexSpaceCenter">
