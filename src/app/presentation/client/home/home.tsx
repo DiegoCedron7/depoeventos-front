@@ -48,7 +48,7 @@ export default function Home() {
       <Intro />
       <Courses />
       <Packages />
-      <Campuses slide={data} />
+      {/* <Campuses slide={data} /> */}
     </>
   );
 }
