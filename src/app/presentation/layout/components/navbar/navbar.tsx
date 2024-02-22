@@ -1,14 +1,14 @@
 // import { Link } from "react-router-dom";
 import { CLIENT_ROUTES } from "../../../../shared/routes/client.routes.js";
-import BurgerIcon from "./burger-icon/burger-icon.js";
+// import BurgerIcon from "./burger-icon/burger-icon.js";
 import LogoIcon from "../../../../../assets/logo.png";
 
 export default function Navbar() {
   return (
     <>
       <nav
-        className={`wrapper flexCenter animate whiteBg`}
-        style={{ height: "80px" }}
+        className={`wrapper flexCenter animate whiteBg sticky top-0 z-50 shadow-md`}
+        style={{ height: "65px" }}
       >
         <div className="nav-inner container flexSpaceCenter">
           <div className="pointer flexNullCenter">
@@ -17,14 +17,14 @@ export default function Navbar() {
               alt="DepoEventos"
               style={{ width: "50px", marginBottom: "10px" }}
             />
-            <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
+            <h1 className="ml-7 text-lg font-semibold">
               Depo<span className="orangeColor">Eventos</span>
             </h1>
           </div>
           <button className="burder-wrapper point">
-            <BurgerIcon></BurgerIcon>
+            {/* <BurgerIcon></BurgerIcon> */}
           </button>
-          <ul className="ul-wrapper flexNullCenter">
+          <ul className="ul-wrapper flexNullCenter gap-2">
             <li className="semiBold font15 pointer">
               {/* <div
                                 activeClass="active"

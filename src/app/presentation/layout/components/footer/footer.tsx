@@ -1,5 +1,4 @@
 import "./footer.css";
-import LogoIcon from "../../../../../assets/logo.png";
 import { Link } from "react-scroll";
 import { CLIENT_ROUTES } from "../../../../shared/routes/client.routes";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -9,28 +8,12 @@ import { FaPinterest } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className="bg-white w-full h-[70px] flex flex-row items-center justify-center px-10 ">
+    <div className="bg-white w-full h-[70px] flex flex-row items-center justify-center px-10  ">
       {/* <img className="h-[40px]" src={LogoIcon} alt="logo" /> */}
       <h1 className="text-xl italic font-bold">
         Depo<span className="text-orange-600">Eventos</span>
       </h1>
-      <div className="m-auto">
-        <Link className="text-slate-500 mx-4 pointer" to={CLIENT_ROUTES.HOME}>
-          Home
-        </Link>
-        <Link className="text-slate-500 mx-4 pointer" to={CLIENT_ROUTES.PACKS}>
-          Packs
-        </Link>
-        <Link className="text-slate-500 mx-4 pointer" to={CLIENT_ROUTES.EVENTS}>
-          Events
-        </Link>
-        <Link
-          className="text-slate-500 mx-4 pointer"
-          to={CLIENT_ROUTES.COURSES}
-        >
-          Courses
-        </Link>
-      </div>
+      <p className="m-auto text-slate-400">© 2024 Depoeventos, Perú</p>
       <div className="flex flex-row gap-2 text-2xl ">
         <a
           className="text-slate-600"
