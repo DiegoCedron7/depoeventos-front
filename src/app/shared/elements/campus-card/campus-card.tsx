@@ -1,7 +1,7 @@
 
 export default function CampusCard() {
     return (
-        <div className="w-[90%] h-[28rem] m-auto mb-20 rounded-2xl flex shadow-lg">
+        <div className="w-[90%] h-[28rem] m-auto mb-20 rounded-2xl flex shadow-md">
             <div className="w-1/2 h-full flex flex-col justify-center items-center">
                 <div className="px-12">
                     <h3 className="text-md font-medium">La Molina, Lima, Perú</h3>
@@ -19,7 +19,7 @@ export default function CampusCard() {
             <div className="w-1/2 h-full flex justify-center items-center">
                 <img
                     src="https://www.colsanpedro.com/imagenes/DSC_0014.jpg"
-                    className="rounded-3xl object-cover h-96 shadow-xl"
+                    className="rounded-3xl object-cover w-[90%] shadow-xl"
                     alt=""
                 />
             </div>
