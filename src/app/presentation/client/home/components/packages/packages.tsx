@@ -12,7 +12,7 @@ export default function Packages() {
           sed diam voluptua.
         </p>
       </div>
-      <div className="w-[80%] m-auto flex justify-around">
+      <div className="w-[80%] m-auto flex justify-around max-xl:w-full max-lg:flex-col max-lg:items-center max-lg:gap-10">
         <PackageCard />
         <PackageCard />
       </div>

@@ -2,7 +2,7 @@
 export default function CampusCard() {
     return (
         <div className="w-[90%] h-[28rem] m-auto mb-20 rounded-2xl flex shadow-md">
-            <div className="w-1/2 h-full flex flex-col justify-center items-center">
+            <div className="w-1/2 h-full flex flex-col justify-center items-center max-xl:w-full">
                 <div className="px-12">
                     <h3 className="text-md font-medium">La Molina, Lima, Perú</h3>
                     <h2 className="text-3xl font-extrabold mb-3">Colegio San Pedro</h2>
@@ -16,7 +16,7 @@ export default function CampusCard() {
                     alt=""
                 />
             </div>
-            <div className="w-1/2 h-full flex justify-center items-center">
+            <div className="w-1/2 h-full flex justify-center items-center max-xl:hidden">
                 <img
                     src="https://www.colsanpedro.com/imagenes/DSC_0014.jpg"
                     className="rounded-3xl object-cover w-[90%] shadow-xl"

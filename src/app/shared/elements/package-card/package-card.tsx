@@ -5,7 +5,7 @@ import { CLIENT_ROUTES } from "../../routes/client.routes";
 
 export default function PackageCard() {
   return (
-    <div className="!w-[400px] !h-[500px] shadow-2xl rounded-2xl">
+    <div className="!w-[400px] !h-[500px] shadow-lg rounded-2xl">
       <div className="flex justify-between p-8">
         <FaTableTennis className="text-3xl opacity-70" />
         <h3 className="text-2xl font-bold text-green-400">S/. 1200.00</h3>
