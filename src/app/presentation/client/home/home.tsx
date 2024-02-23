@@ -45,10 +45,12 @@ export default function Home() {
   ];
   return (
     <>
-      <Intro />
-      <Courses />
-      <Packages />
-      {/* <Campuses slide={data} /> */}
+      <div className="mt-12">
+        <Intro />
+        <Courses />
+        <Packages />
+        <Campuses slide={data} />
+      </div>
     </>
   );
 }
