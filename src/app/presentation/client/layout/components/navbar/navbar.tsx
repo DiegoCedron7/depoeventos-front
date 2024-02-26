@@ -1,7 +1,8 @@
 // import { Link } from "react-router-dom";
-import { CLIENT_ROUTES } from "../../../../shared/routes/client.routes.js";
+import { CLIENT_ROUTES } from "../../../../../shared/routes/client.routes";
 // import BurgerIcon from "./burger-icon/burger-icon.js";
-import LogoIcon from "../../../../../assets/logo.png";
+import { Link } from "react-router-dom";
+import LogoIcon from "../../../../../../assets/logo.png";
 
 export default function Navbar() {
   return (
@@ -63,13 +64,13 @@ export default function Navbar() {
           </ul>
           <ul className="ul-wrapper-right flexNullCenter">
             <li className="semiBold font15 pointer flexCenter">
-              {/* <div
-                                to="/login"
-                                className="radius8 lightBg"
-                                style={{ padding: "10px 15px" }}
-                            >
-                                Log in
-                            </div> */}
+              <Link
+                to="admin/login"
+                className="radius8 lightBg"
+                style={{ padding: "10px 15px" }}
+              >
+                Log in
+              </Link>
             </li>
           </ul>
         </div>

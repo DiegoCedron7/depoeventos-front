@@ -1,5 +1,5 @@
 export const CLIENT_ROUTES = {
-    HOME: 'MICHAELMAMAWEBASO',
+    HOME: `home`,
     COURSES: 'courses',
     EVENTS: 'events',
     PACKS: 'packs'

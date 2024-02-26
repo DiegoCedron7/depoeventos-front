@@ -1,10 +1,6 @@
-import "./footer.css";
-import { Link } from "react-scroll";
-import { CLIENT_ROUTES } from "../../../../shared/routes/client.routes";
-import { FaInstagramSquare } from "react-icons/fa";
+import { FaFacebook, FaInstagramSquare, FaPinterest } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaFacebook } from "react-icons/fa";
-import { FaPinterest } from "react-icons/fa";
+import "./footer.css";
 
 export default function Footer() {
   return (
