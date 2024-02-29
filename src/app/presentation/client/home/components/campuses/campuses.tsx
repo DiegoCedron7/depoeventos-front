@@ -27,9 +27,9 @@ export default function Campuses({ slide }: any) {
         pagination={{ clickable: true }}
         loop={true}
       >
-        {slide.map((index: any) => (
-          <SwiperSlide key={index}>
-            <CampusCard />
+        {slide.map((item: any) => (
+          <SwiperSlide key={item.id}>
+            <CampusCard data={item} />
           </SwiperSlide>
         ))}
       </Swiper>
